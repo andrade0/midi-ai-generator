@@ -1,0 +1,23 @@
+name: midi-ai
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch=2.1.0
+  - numpy=1.24.3
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+    - pretty_midi==0.2.10
+    - miditok==2.1.8
+    - music21==9.1.0
+    - tqdm
+    - tensorboard
+    - einops
+    - wandb

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Données générées
+tokenized_data/
+checkpoints/
+output_midi/
+*.pkl
+*.pt
+*.pth
+
+# Logs
+*.log
+wandb/
+runs/
+tensorboard/
+
+# Analyses
+midi_analysis.json
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temp
+*.tmp
+*.bak
+~*
+
+venv/*
+checkpoints/**/*.pt
+tokenized_data/*.json
+tokenized_data/*.pki
+
+
+
+__pycache__
+.claude
+
+midi_files/*
+
+.idea
